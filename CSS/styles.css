@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,400&display=swap');
 
 * {
+    
     font-family:'Raleway', sans-serif ;
     align-content:center;
     width:100%;
     box-sizing: border-box;
 }
 
-.body
+body
 {
+    max-width: 1572px;
     position: relative;
     right: 5px;
 }
+
 .euros
 {
     font-weight: bold;
@@ -67,7 +70,7 @@ a:hover
 {
     width:50%;
     text-align: center;
-    border-top: 2px solid transparent;
+    border-top:3px solid transparent;
     padding-top: 50px;
     position:relative;
     bottom:20px;
@@ -78,7 +81,7 @@ a:hover
 .line:hover
 {
     width:50%;
-    border-top: 2px solid #0065FC;
+    border-top:3px solid #0065FC;
     padding-top: 50px;
     position:relative;
     bottom:20px;
@@ -88,7 +91,7 @@ a:hover
 {
     width:30%;
     text-align: center;
-    border-top: 2px solid transparent;
+    border-top:3px solid transparent;
     padding-top:50px;
     position:relative;
     right:50px;
@@ -99,7 +102,7 @@ a:hover
 .line1:hover
 {
     width:30%;
-    border-top: 2px solid #0065FC;
+    border-top:3px solid #0065FC;
     padding-top: 50px;
     position:relative;
     right:50px;
@@ -1265,3 +1268,339 @@ h1 + p
 
 
 
+
+/************************************************************************************Partie Media query pour ordinateur*************************/
+
+@media (min-width:1281px) and (max-width:1440px)
+{
+    body 
+    {
+        background-color:orange;
+        width:1430px;
+        align-items: center;
+    }
+
+    .F2
+    {
+        position: relative;
+        right:190px;
+    }
+
+    .ftext1
+    {
+        width: 65%;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .ftext2
+    {
+        width: 60%;
+        height: auto;
+    }
+    .ftext3
+    {
+        width:70%;
+        height: auto;
+        
+    }
+    .ftext4
+    {
+        width:100%;
+        height: auto;
+    }
+    .etoilex
+    {
+        position:relative;
+        bottom:5px;
+    }
+
+    .soustitre1, .soustitre2, .soustitre3
+    {
+        font-size: 17px;
+    }
+
+    .blocimage
+    {
+        position: relative;
+        left:65px;
+    }
+
+    .activimage4
+    {
+        position: relative;
+        left:20px;
+    }
+
+    .activimage5
+    {
+        position: relative;
+        right:32px;
+    }
+
+    .activimage6
+    {
+        position: relative;
+        right:12px;
+    }
+    
+}
+
+
+
+
+@media (min-width:1025px) and (max-width:1280px)
+{
+    body 
+    {   background-color:greenyellow;
+        width:1270px;
+        align-items: center;
+    }
+    .line
+    {
+       position:relative;
+       right:70px;  
+    }
+
+    .line:hover
+    {
+        position:relative;
+        right:70px;
+    }
+
+    .F2
+    {
+        position: relative;
+        left:-160px;
+    }
+
+    .ftext1
+    {
+        width: 65%;
+        height: auto;
+    }
+
+    .ftext2
+    {
+        width: 60%;
+        height: auto;
+    }
+    .ftext3
+    {
+        width:70%;
+        height: auto;
+        
+    }
+    .ftext4
+    {
+        width:100%;
+        height: auto;
+    }
+    .iconeInfo
+    {
+       width:2.5%;
+    }
+
+    .blocpopulaire
+    {
+        position: relative;
+        right: 10px;
+    }
+
+    .x, .y, .z
+    {
+        font-size: 15px;
+       
+    }
+    .titrehotel1, .titrehotel2, .titrehotel3
+    {
+        font-size: 15px;
+    }
+    .soustitre1, .soustitre2
+    {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+     .soustitre3
+    {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    
+    .etoilex
+    {
+        position:relative;
+        top:5px;
+    }
+
+    .etoiley
+    {
+        position:relative;
+        top:5px;
+    }
+
+    .etoilez
+    {
+        position:relative;
+        top:5px;
+    }
+    
+    .photo2
+    {
+        align-items: baseline;
+    }
+    .fond3
+    {
+        position: relative;
+        bottom:127px;
+    }
+
+    .blocimage
+    {
+        position: relative;
+        left:60px;
+    }
+
+    .activimage4
+    {
+        position: relative;
+        left:15px;
+    }
+
+    .activimage5
+    {
+        position: relative;
+        right:42px;
+    }
+
+    .activimage6
+    {
+        position: relative;
+        right:22px;
+    }
+}
+
+
+
+
+@media (min-width:992px) and (max-width:1024px)
+{
+
+    body 
+    {
+        background-color: pink;
+        width:100.5%;
+    }
+    .blochebergement
+    {
+        width:70%;
+        height: 670px;
+    }
+    .blocpopulaire
+    {
+        width:30%;
+        height:670px;
+    }
+    .grostitre1, .grostitre2
+    {
+        font-size: 18px;
+        width: 100%;
+    }
+    .grostitre1
+    {
+        padding-top:75px;
+    }
+    .grostitre2
+    {
+        right:25px;
+    }
+
+    .iconechart
+    {
+        font-size: 18px;
+        left:1px;
+    }
+    
+    .cologne2
+    {
+        bottom:100px;
+    }
+
+    .titrehotel1, .titrehotel2, .titrehotel3
+    {
+        font-size: 14px;
+    }
+    .soustitre1, .soustitre2, .soustitre3
+    {
+        font-size: 13px;
+    }
+
+    .image1
+    {
+        width:90%;
+        height:145px;
+    }
+    .image2
+    {
+        width: 90%;
+        height:145px;
+    }
+
+    .plus
+    {
+        bottom:80px;
+    }
+    
+    .fond1
+    {
+        position: relative;
+        bottom:55px;
+    }
+
+    .image3
+    {
+        width:40% ;
+        height: 160px;
+    }
+
+    .fond3
+    {
+        width:60%;
+        height:160px;
+        position: relative;
+        bottom:128px;
+    }
+
+    .tablette2
+    {
+        bottom:0;
+        top:10px;
+    }
+    .tablette3
+    {
+        bottom:0;
+        top:20px;
+    }
+
+    .bloc2
+    {
+        position: relative;
+        bottom:20px;
+    }
+    .blocimage
+    {
+        position: relative;
+        left:52px;
+    }
+    .blocimage2
+    {
+        position: relative;
+        left:-25px;
+    }
+    .activimage4
+    {
+        position:relative;
+        left:19px;
+    }
+}

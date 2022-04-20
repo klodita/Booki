@@ -1,0 +1,1267 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,400&display=swap');
+
+* {
+    font-family:'Raleway', sans-serif ;
+    align-content:center;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.body
+{
+    position: relative;
+    right: 5px;
+}
+.euros
+{
+    font-weight: bold;
+}
+/*Travail sur Le menu de Navigation avec le logo*/
+
+.logo
+{
+    width:12%;
+    padding-left: 50px;
+    position: relative;
+    top:10px;
+}
+
+img 
+{
+    width: 100%;
+    height: auto;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+ul
+{
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right:20px;
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+/*effet de la ligne bleu sur la navigation*/
+
+a:hover
+{
+    color:#0065FC
+}
+
+.line
+{
+    width:50%;
+    text-align: center;
+    border-top: 2px solid transparent;
+    padding-top: 50px;
+    position:relative;
+    bottom:20px;
+    right:30px;
+   
+}
+
+.line:hover
+{
+    width:50%;
+    border-top: 2px solid #0065FC;
+    padding-top: 50px;
+    position:relative;
+    bottom:20px;
+}
+
+.line1
+{
+    width:30%;
+    text-align: center;
+    border-top: 2px solid transparent;
+    padding-top:50px;
+    position:relative;
+    right:50px;
+    bottom:20px;
+  
+}
+
+.line1:hover
+{
+    width:30%;
+    border-top: 2px solid #0065FC;
+    padding-top: 50px;
+    position:relative;
+    right:50px;
+    bottom:20px;
+}
+
+.pose1
+{
+    width:25%;
+    padding-right:10px;  
+    position: relative;
+    right:30px; 
+} 
+
+
+/*travail sur la balise H1 et le paragraphe ci-dessous*/
+
+h1
+{
+    font-size: large;
+    padding-left: 30px;
+}
+
+h1 + p
+{
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+/*Travail sur la barre de recherche*/
+.search
+{
+    display: flex;
+    border-radius: 20px;
+    font-size: 25px;
+    padding-left: 25px;
+    position: relative;
+    left: 5px;
+}
+
+
+.logo-color
+{
+    width:4%;
+    height:50px;
+    color: black;
+    background-color: #F2F2F2;
+    border: 2px solid #F2F2F2;
+    margin:0px;
+    padding:0px;
+    margin-top: 2px;
+    margin-left:2px;
+    padding-top:2px;
+    padding-bottom: 0px;
+    padding-left:20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom:2px;
+    z-index:1;
+}
+
+
+.A {
+    width:16%;
+    height: 50px;
+    display: flex;
+    border: 0.8px solid #F2F2F2;
+    font-weight: bold;
+    padding:5px;  
+}
+
+::placeholder
+{
+    font-size:18px;
+    color: black;
+    opacity: 1;
+}
+
+.rep 
+{
+    width:9%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    padding-left:20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    z-index:1;
+}
+
+
+
+/*Travail sur les Filtres*/
+
+
+.filtre /*toutes ma colonne de filtres*/
+{
+    width:100%;
+    display: flex;
+    align-items: baseline;
+    font-size:30px;
+    
+}
+
+.F1{
+    font-weight: bold;
+    font-size:22px;
+    position: relative;
+    left:35px;
+}
+
+
+.F2 /*ma bordure de filtre*/
+{
+    width:60%;
+    border: 2px solid #F2F2F2;
+    height:50px;
+    border-radius: 30px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    margin:20px;
+    position: relative;
+    right:360px;
+}
+
+.iconefiltres
+{
+    border-radius: 30px;
+    font-size: 25px;
+    color: #0065FC;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.recadre
+{
+    position: relative;
+    top:4px;
+}
+.recadre1
+{
+    font-size:30px;
+    margin: 0px;
+}
+
+.ftext
+{
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    padding-left:15px;
+    
+}
+
+.ftext:hover
+{
+    color: #0065FC;
+    text-transform:uppercase;
+}
+
+.ftext1
+{
+    width:45%;
+}
+
+.icon1
+{
+    width:38%;
+    height:50px;
+    padding: auto;
+    padding-top:12px;
+}
+
+.ftext2
+{
+    width:39%;
+    position: relative;
+    right:380px;
+  
+}
+
+.icon2
+{
+    width:40%;
+    height:50px;
+    padding: auto;
+    padding-top:12px;
+}
+
+.ftext3
+{
+    width:45%;
+    position: relative;
+    right:400px;
+    
+}
+
+.icon3
+{
+    width:38%;
+    height:50px;
+    padding: auto;
+    padding-top:12px;
+}
+
+.ftext4
+{
+    width:65%;
+    position: relative;
+    right:420px;
+   
+}
+
+.icon4
+{
+    width:28%;
+    height:50px;
+    padding: auto;
+    padding-top:12px;
+}
+
+
+/*information 500 logements*/
+
+.info
+{
+    display: flex;
+    align-items: baseline;
+    padding-left: 35px;
+}
+
+.iconeInfo
+{
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    color: #0065FC;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    width:2%;
+    height:30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:10px;
+    margin-right: 10px;
+}
+
+
+
+/*Travail sur le Main=contenue de la page"*/
+
+#hebergementmarseille
+{
+    display: flex;
+    padding-left:20px;
+}
+
+.blochebergement
+{
+    
+    width:70%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    margin:20px;
+    padding:20px;
+    border-radius: 20px;
+}
+
+.blocpopulaire
+{
+    
+    width:30%;
+    height:auto;
+    background-color: #F2F2F2;
+    margin:20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+/*Travail sur les Titres des deux bloc Hebergement et populaire*/
+
+
+.grostitre1
+{
+    font-size: 22px;
+    margin-left: 55px;
+    padding-top:28px;
+    padding-bottom:42px;
+    position: relative;
+    right:30px;
+    bottom:23px;
+    
+}
+
+.grostitre2
+{
+    width:80%;
+    font-size: 22px;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+
+/*positionnement de l'icone chart sur le bloc les plus populaires*/
+
+.positionicon
+
+{
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-right:30px;
+}
+
+.iconechart
+{
+    width:10%;
+    font-size: 22px;
+    position:relative;
+    right: 20px;
+}
+
+/*Travail sur le bloc Hébergement à Marseille*/
+
+.cologne1
+{
+    display: flex;
+    align-items: baseline;
+    width:100%;
+    height: 240px;
+    margin:0px;
+    padding:0px;
+    justify-content: space-around;
+    position: relative;
+    right: 2px;
+    bottom:60px;
+}
+
+.cologne2
+{
+    width:100%;
+    height:240px;
+    margin:0px;
+    padding:0px;
+    margin-top:60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    position: relative;
+    left:2px;
+    bottom:80px;
+}
+
+
+/*Travail sur la première cologne*/
+
+.image1
+{
+    width:90%;
+    height:185px;
+    border:5px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin:15px;
+    padding:0;
+    object-fit: cover;
+    box-shadow:5px 5px 5px gainsboro;
+    
+}
+
+.fond1
+{
+    background-color: white;
+    width:90%;
+    height:90px;
+    margin:15px;
+    padding:0px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    bottom:65px;
+    z-index: 1;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+
+.titrehotel1
+{
+    font-size: 18px;
+    margin:0px;
+    padding:0px;
+    padding-top:10px;
+    padding-left:20px;
+    font-weight: bolder;
+}
+
+.soustitre1
+{
+    font-size:18px;
+    margin:0px;
+    padding:0px;
+    padding-left:20px;
+    font-weight: lighter;
+    position: relative;
+    top:5px;  
+}
+
+
+.etoile
+{
+    width: 100px;
+    margin:0px;
+    padding:0px;
+    padding-left:20px;
+    display: flex;
+    align-items: baseline; 
+    position: relative;
+    top: 10px;
+}
+
+.etoile1
+{
+    color: #0065FC;
+    font-size: 15px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+/*travail sur le deuxième cologne*/
+
+.image2
+{
+    width:90%;
+    height:185px;
+    border:5px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin:10px;
+    padding:0px;
+    object-fit: cover;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+
+.titrehotel2
+{
+    position: relative;
+    top:10px;
+    left:10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.soustitre2
+{
+    position: relative;
+    left:10px;
+    bottom:5px; 
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+.fond2
+{
+    background-color: white;
+    width:90%;
+    height:90px;
+    margin:10px;
+    padding-left:10px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    bottom: 60px;
+    z-index: 1;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+
+.etoileb
+{
+    width: 100px;
+    margin:0px;
+    padding:0px;
+    padding-left:10px;
+    display: flex;
+    bottom:20px;
+    right: 10px;
+    align-items: baseline; 
+    position: relative;
+}
+
+.etoile2
+{
+    color: #0065FC;
+    font-size: 15px;
+    position: relative;
+    left:10px;
+}
+
+.plus /*Petit texte Afficher plus*/
+{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    bottom:20px;
+    left:20px;
+}
+
+
+/*Travail sur la partie Les plus Populaires*/
+
+
+
+.photo2
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width:100%;
+    height: 180px;
+}
+
+
+.image3
+{
+    display: flex;
+    width:38%;
+    height: 160px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom:30px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+.fond3
+{
+    display: flex;
+    width:52%;
+    height: 160px;
+    border:5px solid white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    padding-left:10px;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    bottom:121px;
+    z-index: 1;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+.titrehotel3
+{
+    font-size: 18px;
+    width:50%;
+    font-weight: bolder;
+}
+
+
+/*Travail sur le cadre individuelle de chaque *titrehotel3 pour respecter la mise en page textuelle et visuelle de la maquette*/
+
+.x
+{
+    font-size:18px;
+    width:100%;
+    font-weight: bolder;   
+}
+
+.y
+{
+    font-size:18px;
+    width:100%;
+    font-weight: bolder;
+}
+
+.z
+{
+    font-size:18px;
+    width:100%;
+    font-weight: bolder;  
+}
+
+/*Si modification penser à changer le"Bottom" du sélecteur etoileY*/
+/*Fin de la correction*/
+
+
+.soustitre3
+{
+    font-size:18px;
+    width:100%;
+    font-weight: lighter;
+    justify-content: center;
+    position:relative;
+    bottom: 30px;
+}
+
+.etoilex, .etoiley, .etoilez
+{
+    width: 50%;
+}
+
+.etoilex
+{
+    display: flex;
+    align-items: baseline; 
+    position: relative;
+    bottom:5px;
+}
+
+.etoiley
+{
+    display:flex;
+    align-items:baseline; 
+    position:relative;
+    bottom:5px;
+}
+
+.etoilez
+{
+    display:flex;
+    align-items:baseline; 
+    position:relative;
+    bottom:5px;
+}
+
+.etoile3
+{
+    color: #0065FC;
+    font-size: 15px;
+}
+
+.tablette2
+{
+   position: relative;
+   top:30px;
+}
+
+.tablette3
+{
+    position: relative;
+    top:60px; 
+}
+
+
+
+/*Couleur étoile grise*/
+
+.G
+{
+    color: #DEEBFF;
+    font-weight: bolder;
+}
+
+
+/*Travail sur la Partie Activités à Marseille*/
+
+#activitemarseille
+{
+    width:100%;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:40px;
+}
+
+
+.grostitre3
+{
+    width:50%;
+    font-size:15px;
+    display: flex;
+    align-items: baseline;   
+    position: relative;
+    left:45px;
+    bottom: 10px;
+}
+
+
+.conteneur
+{
+    width:100%;
+    height:520px;
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+
+/*Travail sur les deux  Bloc*/
+
+.bloc1
+{
+    display: flex;
+    width:48%;
+    align-items: baseline;
+    position: relative;
+    right:5px;
+}
+
+.bloc2
+{
+    display: flex;
+    width:48%;
+    align-items: baseline;
+    margin:0;
+    padding: 0;
+}
+
+
+/*Travail sur le premier bloc*/
+
+.activimage1
+{
+    width:50%;
+    height:495px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position: relative;
+    bottom:5px;
+    left:30px;
+}
+
+.activite1
+{
+    width:100%;
+    height: 475px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    bottom: 100px;
+}
+
+
+.titreactivite1
+{
+    background-color: white;
+    width:98%;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:400px;
+    left:4px;
+    z-index: 1;
+    
+}
+
+
+/*division du bloc1*/
+
+.blocimage
+{
+    display: flex;
+    width:60%;
+    flex-direction:column;
+    align-items: baseline;
+    position:relative;
+    left:70px;
+}
+
+
+
+.activimage2
+{
+    width:95%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom:5px;
+}
+
+.activite2
+{
+    width:90%;
+    height: 225px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    position: relative;
+    bottom: 100px;   
+}
+
+
+.titreactivite2
+{
+    background-color: white;
+    width:88%;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:165px;
+    left:4px;
+    z-index: 1; 
+}
+
+
+
+
+.activimage3
+{
+    width:95%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:100px;
+}
+
+
+.activite3
+{
+    width:90%;
+    height: 180px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    position: relative;
+    bottom:110px;
+}
+
+
+.titreactivite3
+{
+    background-color: white;
+    width:88%;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    left:4px;
+    top:95px;
+    z-index: 1;
+}
+
+
+
+
+/*Travail sur le Bloc2 */
+
+
+.activimage4
+{
+    width:50%;
+    height: 495px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position: relative;
+    left:25px;
+    bottom:10px;
+}
+
+
+.activite4
+{
+    width:100%;
+    height: 475px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    bottom: 95px;
+    right: 10px;
+    
+}
+
+.titreactivite4
+{
+    background-color: white;
+    width:98%;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:405px;
+    right:6px;
+    z-index: 1; 
+}
+
+
+/*division du bloc2*/
+
+
+.blocimage2
+{
+    display: flex;
+    width: 60%;
+    margin:0;
+    padding:0;
+    flex-direction:column;
+    align-items: baseline;
+    position:relative;
+    left:00px;
+}
+
+
+
+.activimage5
+{
+    width:95%;
+    height:180px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    bottom:5px;
+    right:20px;
+}
+
+.activite5
+{
+    width:90%;
+    height:180px;
+    border:5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    position: relative;
+    bottom:100px;
+    left:77px;
+}
+
+
+
+.titreactivite5
+{
+    background-color: white;
+    width:88%;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:109px;
+    left:81px;
+    z-index: 1;
+}
+
+
+
+.activimage6
+{
+    width:95%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.activite6
+{
+    width:90%;
+    height: 225px;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    position: relative;
+    bottom: 45px;  
+    left:55px;
+    
+}
+
+
+.titreactivite6
+{
+    background-color: white;
+    width:88%;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    font-size: 18px;
+    font-weight: bolder; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    top:215px;
+    left:58px;
+    z-index: 1;
+}
+
+/*Travail sur le Footer, il y a 3 Bloc*/
+
+.footer
+{
+    width:101%;
+    height:250px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    justify-content: space-around;
+}
+
+
+/*Travail sur les Titres*/
+
+.titrefooter
+{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+.listeA
+{
+    width: 290px;
+    height:220px;
+    margin:0px;
+    padding: 0px;
+    display:block;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.liste
+{
+    margin:0px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+
+
+/*Travail sur les Bloc 1*/
+
+
+.apropos
+{
+    display: flex;
+    width:50%;
+    height: 200px;
+    align-items: baseline;
+    justify-content: left;
+    flex-direction: column;
+    position: relative;
+    top:5px;
+    left:50px;
+}
+
+
+/*Travail sur le Bloc 2*/
+
+.noshebergements
+{
+    display: flex;
+    width:50%;
+    height: 200px;
+    align-items: baseline;
+    justify-content: left;
+    flex-direction: column;
+    position: relative;
+    top:5px;
+    right:20px;
+}
+
+
+/*Travail sur le Bloc 3*/
+
+.assistance
+{
+    display: flex;
+    width:20%;
+    height: 200px;
+    align-items: baseline;
+    justify-content: left;
+    flex-direction: column;
+    position: relative;
+    top:5px;
+    right: 80px;
+}
+
+/*Réservé pour la barre de recherche version mobile et petite tablette 600px */
+
+.loupe 
+{
+    display: none;
+}
+
+
+

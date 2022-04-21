@@ -1,0 +1,59 @@
+@media (min-width:945px) and (max-width:991px)  /****Pour tablette 960px******/
+{ 
+
+    body 
+    {
+        background-color:orange;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************************************Pour tablette 800px**********************************************/
+
+
+
+
+@media (min-width:791px) and (max-width:944px) 
+
+{
+ 
+body 
+{
+    background-color: green;
+
+}
+}
+
+
+
+
+
+
+/*******************************************************************************************************Pour Tablette 768px*********************/
+
+
+
+
+@media (min-width:768px) and (max-width:790px)
+
+
+{
+
+   
+body 
+{
+    background-color:blue;
+    
+}
+}
+

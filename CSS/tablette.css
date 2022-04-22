@@ -1,17 +1,401 @@
-@media (min-width:945px) and (max-width:991px)  /****Pour tablette 960px******/
-{ 
 
-    body 
-    {
-        background-color:red;
-        
-    }
+
+/*******************************************************************************************************Pour Tablette 768px*********************/
+
+
+
+
+@media (min-width:768px) and (max-width:790px)
+
+
+{
+
+
+body 
+{
+     width:758px;
+     margin:0;
+     padding:0;
+     overflow-x: hidden;
+}
+
+#hebergementmarseille
+{
+    display: block;
+    flex-direction: column;
+}
+
+/*travail sur la partie populaire*/
+
+.blocpopulaire
+{
+    width:760px;
+    height:980px;
+    position:relative;
+    bottom:2770px;
+    right:40px;
+    border-radius:0;
+}
+.photo2
+{
+    width:95%;
+    height:260px;
+    position:relative;
+    left:20px;
+}
+.titrehotel3, .soustitre3
+{
+    font-size:22px;
+}
+.image3
+{
+    width:40%;
+    height:250px;
+}
+.fond3
+{
+    width:58%;
+    height:250px;
+    position: relative;
+    bottom:203px;
+}
+.etoilex, .etoiley, .etoilez
+{
+    width:25%;
+}
+
+
+
+/*Travail sur la partie Hébergement à Marseille*/
+
+.blochebergement
+{
+    width:100%;
+    height:2750px;
+    position:relative;
+    top:1000px;
+    right:20px;
+    background-color: transparent;
+    
+}
+.grostitre1
+{
+    position: relative;
+    bottom:285px;
+}
+.cologne1, .cologne2
+{
+    width:100%;
+    display: block;
+    flex-direction: column;
+}
+.cologne1
+{
+    bottom:820px;
+}
+.image1
+{
+    width:95%;
+    height:280px;
+}
+.fond1
+{
+    width:95%;
+    height:120px;
+}
+
+.posimg2
+{
+    position: relative;
+    bottom:20px;
+}
+.posimg3
+{
+    position: relative;
+    bottom:40px;
+}
+.fondpose1
+{
+    bottom:35px;
+}
+
+.fondpose2
+{
+    bottom:55px;
+}
+
+.fondpose3
+{
+    bottom:75px;
+}
+
+.cologne2
+{
+    bottom:350px;
+}
+.image2
+{
+    width:95%;
+    height:280px;
+    position:relative;
+    top:65px;
+}
+.fond2
+{
+    width:95%;
+    height:120px;
+    top:20px;
+}
+.posimg4
+{
+    position: relative;
+    bottom:30px;
+}
+.posimg5
+{
+   
+    top:55px;
+}
+.posimg6
+{
+    position: relative;
+    top:45px;
+    
+}
+.fondpose4
+{
+    top:30px;
+}
+.fondpose5
+{
+    top:20px;
+}
+.fondpose6
+{
+    position:relative;
+    top:10px;
+    
+}
+.plus
+{
+    top:230px;
+}
+
+
+/*Travail sur l'activité à Marseille*/
+
+.conteneur
+{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    position: relative;
+    top:250px;
+}
+
+.grostitre3
+{
+    bottom:70px;
+    left:58px;
+}
+.bloc1
+{
+    width:100%;
+    display: block;
+    flex-direction: column;
+    top:240px;
+}
+
+.activimage1
+{
+    width:88%;
+    position: relative;
+    left:55px;
+    top:115px;
+}
+.activite1
+{
+    height: 280px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+.titreactivite1
+{
+    width:100%;
+    height:70px;
+    position: relative;
+    top:250px;
+    left:0px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+.activimage2
+{
+    width:165%;
+    position: relative;
+    right:20px;
+}
+.activite2
+{
+    height:280px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+.titreactivite2
+{
+    width:89.9%;
+    height:70px;
+    position: relative;
+    top:250px;
+    left:0px;
+    box-shadow:5px 5px 5px gainsboro;
+
+}
+
+.activimage3
+{
+    width:165%;
+    position: relative;
+    top:180px;
+    right:20px;
+}
+.activite3
+{
+    height:280px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+.titreactivite3
+{
+    width:89.9%;
+    height:70px;
+    position: relative;
+    top:240px;
+    left:0px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+
+.bloc2
+{
+    width:100%;
+    display: block;
+    flex-direction: column;
+    position: relative;
+    top:485px;
+    padding-bottom: 20px;
+}
+
+
+.activimage4
+{
+    width:89.2%;
+    position: relative;
+    left:55px;
+    top:115px;
+}
+.activite4
+{
+    height:280px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+.titreactivite4
+{
+    width:100%;
+    height:70px;
+    position: relative;
+    top:250px;
+    left:-10px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+.activimage5
+{
+    width:165%;
+    position: relative;
+    right:30px;
+}
+.activite5
+{
+    height:280px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+.titreactivite5
+{
+    width:89.9%;
+    height:70px;
+    position: relative;
+    top:250px;
+    left:77px;
+    box-shadow:5px 5px 5px gainsboro;
+
+}
+
+.activimage6
+{
+    width:165%;
+    position: relative;
+    top:135px;
+    right:10px;
+}
+.activite6
+{
+    height:280px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+.titreactivite6
+{
+    width:89.9%;
+    height:70px;
+    position: relative;
+    top:305px;
+    left:55px;
 }
 
 
 
 
+/*Travail sur le Footer*/
 
+
+.footer
+{
+    height:220px;
+    position: relative;
+    top:1620px;
+}
+
+.titrefooter, .listeA
+{
+    font-size: 14px;
+}
+
+.apropos
+{
+    width:70%;
+    height: 150px;
+    position: relative;
+    left:110px;
+}
+
+.noshebergements
+{
+    width:52%;
+    height: 150px;
+    position: relative;
+    left:75px;
+}
+
+.assistance
+{
+    width:45%;
+    height: 150px;
+    position: relative;
+    left:5px;
+}
+
+
+
+}
 
 
 
@@ -36,24 +420,23 @@ body
 
 
 
+/******************************************************************************************Pour tablette 960px**********************************/
 
 
+@media (min-width:945px) and (max-width:991px)  /****Pour tablette 960px******/
+{ 
 
-/*******************************************************************************************************Pour Tablette 768px*********************/
+    body 
+    {
+        background-color:red;
+    }
 
 
-
-
-@media (min-width:768px) and (max-width:790px)
-
-
-{
-
-   
-body 
-{
-    background-color:blue;
-    
 }
-}
+
+
+
+
+
+
 

@@ -1296,7 +1296,10 @@ h1 + p
         height: auto;
         margin-right: 10px;
     }
-
+    .icon2
+    {
+        width:43%;
+    }
     .ftext2
     {
         width: 60%;
@@ -1307,6 +1310,10 @@ h1 + p
         width:70%;
         height: auto;
         
+    }
+    .icon4
+    {
+        width:24.2%;
     }
     .ftext4
     {

@@ -19,10 +19,154 @@ body
      overflow-x: hidden;
 }
 
+
+/*Travail sur la Navigation et logo*/
+
+.logo 
+{
+    width:23%;
+}
+
+.line
+{
+    width:100%;
+    position: relative;
+    right: 130px;
+}
+
+.line1
+{
+    width:100%;
+    position: relative;
+    right:80px;
+}
+.line:hover
+{
+    width:100%;
+    color:#0065FC;
+    position: relative;
+    right: 130px;
+}
+
+.line1:hover
+{
+    width:100%;
+    color:#0065FC;
+    position: relative;
+    right:80px;
+}
+
+
+
+/*Travail sur la barre de recherche*/
+
+.rep, .reptext
+{
+    display: none;
+}
+
+
+.logo-color
+{
+    width:8%;
+}
+.A 
+{
+    width:30%;
+}
+::placeholder
+{
+    padding-left: 10px;
+}
+.loupe 
+{
+    display: flex;
+    width:8%;
+    font-size:18px;
+    padding-top:15px;
+    color: white;
+    border:none;
+    background-color: #0065FC;
+    border-radius:15px;
+    position: relative;
+    right:10px;
+}
+
+/*Travail sur les Filtres*/
+
+.filtre
+{
+    display: block;
+    flex-direction: column;
+}
+.F2 
+{
+    position: relative;
+    left:10px;
+}
+.icon1
+{
+    width:40%;
+}
+
+.ftext1
+{
+    width:24%;
+}
+
+.icon2
+{
+    width: 40%;
+}
+.ftext2
+{
+    width:25%;
+    position: relative;
+    left:210px;
+    top:-70px;
+}
+
+.ftext3, .ftext4
+{
+    bottom:70px;
+}
+
+.icon3
+{
+    width:35%;
+}
+.ftext3
+{
+    width:30%;
+}
+.icon4
+{
+    width:24%;
+}
+.ftext4
+{
+    width:40%;
+}
+
+.info
+{
+    position: relative;
+    bottom:50px;
+}
+.iconeInfo
+{
+    width:4.5%;
+}
+
+/*Travail sur la partie Populaire et Hébergement*/
+
+
 #hebergementmarseille
 {
     display: block;
     flex-direction: column;
+    position: relative;
+    top:-35px;
 }
 
 /*travail sur la partie populaire*/
@@ -36,6 +180,15 @@ body
     right:40px;
     border-radius:0;
 }
+.grostitre2
+{
+    font-size: 25px;
+}
+.iconechart
+{
+    left:5px;
+}
+
 .photo2
 {
     width:95%;
@@ -45,7 +198,7 @@ body
 }
 .titrehotel3, .soustitre3
 {
-    font-size:22px;
+    font-size:23px;
 }
 .image3
 {
@@ -57,13 +210,26 @@ body
     width:58%;
     height:250px;
     position: relative;
-    bottom:203px;
+    bottom:201px;
 }
 .etoilex, .etoiley, .etoilez
 {
-    width:25%;
+    width:28%;
+    
 }
 
+.etoilex
+{
+    top:55px;
+}
+.etoiley
+{
+    top:35px;
+}
+.etoilez
+{
+    top:65px;
+}
 
 
 /*Travail sur la partie Hébergement à Marseille*/
@@ -80,9 +246,20 @@ body
 }
 .grostitre1
 {
+    font-size: 25px;
     position: relative;
     bottom:285px;
 }
+.titrehotel1, .titrehotel2
+{
+    font-size:23px;
+}
+
+.soustitre1, .soustitre2
+{
+    font-size:23px;
+}
+
 .cologne1, .cologne2
 {
     width:100%;
@@ -164,21 +341,41 @@ body
 }
 .fondpose4
 {
-    top:30px;
+    top:25px;
 }
 .fondpose5
 {
-    top:20px;
+    top:15px;
 }
 .fondpose6
 {
     position:relative;
-    top:10px;
+    top:5px;
     
 }
+
+.etoile
+{
+    width: 20%;
+}
+.etoile1
+{
+    top:10px;
+}
+
+.etoileb
+{
+    width: 20%;
+}
+.etoile2
+{
+    top:10px;
+}
+
 .plus
 {
-    top:230px;
+    top:315px;
+    z-index: 1;
 }
 
 
@@ -190,12 +387,13 @@ body
     width:100%;
     flex-direction: column;
     position: relative;
-    top:250px;
+    top:300px;
 }
 
 .grostitre3
 {
-    bottom:70px;
+    font-size:18px;
+    bottom:30px;
     left:58px;
 }
 .bloc1
@@ -359,9 +557,9 @@ body
 
 .footer
 {
-    height:220px;
+    height:170px;
     position: relative;
-    top:1620px;
+    top:1670px;
 }
 
 .titrefooter, .listeA

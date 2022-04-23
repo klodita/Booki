@@ -2712,6 +2712,7 @@ body
 {
     background-color:violet;
      width:100%;
+     max-width: max-content;
      margin:0;
      padding:0;
      align-items: center;

@@ -2010,7 +2010,7 @@ header
 
 
 
-@media (min-width:315px) and (max-width:415px)
+@media (min-width:355px) and (max-width:415px)
 
 
 {
@@ -2692,7 +2692,692 @@ header
 
 
 
+/********************************************************************************************************************************************/
 
+
+
+
+@media (min-width:310px) and (max-width:354px)
+
+
+{
+
+
+body 
+{
+    background-color:violet;
+     width:100%;
+     max-width: max-content;
+     margin:0;
+     padding:0;
+     align-items: center;
+     position: relative;
+     right:15px;
+     overflow-x: hidden;
+     
+}
+
+header
+{
+    padding-left:20px;
+}
+
+/*Travail sur la Navigation et logo*/
+
+.logo 
+{
+    width:47%;
+    position: relative;
+    left:40px;
+}
+
+.nav
+{
+    display: block;
+    flex-direction: column;
+    position: relative;
+    left:45px;
+}
+
+.pose1 
+{
+    width:115%;
+    position: relative;
+    right:40px;
+    bottom:10px;
+}
+.line, .line1
+{
+    font-size:18px;
+    width:50%;
+    padding-bottom:20px;
+    border-bottom: 5px solid #F2F2F2;
+    
+}
+
+
+.line1
+{
+   position:relative;
+   right:40px;
+}
+
+
+
+.line:hover, .line1:hover
+{
+    width:50%;
+    padding-bottom:20px;
+    border-bottom:5px solid #0065FC ;
+    border-top: none;
+}
+
+.line1:hover
+{
+    position:relative;
+    right:30px;
+    
+}
+
+.tabpositionh1
+{
+    font-size:110%;
+}
+.tabpositionp
+{
+    font-size:80%;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+/*Travail sur la barre de recherche*/
+
+.search
+{
+    padding-bottom:15px;
+}
+
+.rep, .reptext
+{
+    display: none;
+}
+
+
+.logo-color
+{
+    width:16%;
+    height:55px;
+    font-size:26px;
+    padding-left:15px;
+}
+.A 
+{
+    width:70%;
+    height:55px;
+}
+::placeholder
+{
+    font-size:18px;
+    padding-left:15px;
+}
+.loupe 
+{
+    display: flex;
+    width:20%;
+    height:55px;
+    font-size:25px;
+    padding-top:15px;
+    color: white;
+    border:none;
+    background-color: #0065FC;
+    border-radius:15px;
+    position: relative;
+    right:10px;
+}
+
+/*Travail sur les Filtres*/
+
+.filtre
+{
+    display: block;
+    flex-direction: column;
+}
+.F1 
+{
+    font-size:20px;
+}
+.F2 
+{
+    
+    position: relative;
+    left:10px;
+}
+.ftext 
+{
+    font-size:16px;
+    padding-left:5px;
+}
+.icon1
+{
+    width:50%;
+}
+
+.ftext1
+{
+    width:45%;
+}
+
+.icon2
+{
+    width:55%;
+}
+.ftext2
+{
+    width:40%;
+    position: relative;
+    left:150px;
+    top:-70px;
+}
+
+.ftext3, .ftext4
+{
+    bottom:70px;
+}
+
+.icon3
+{
+    width:45%;
+}
+.ftext3
+{
+    width:55%;
+}
+.icon4
+{
+    width:25%;
+}
+.ftext4
+{
+    width:70%;
+}
+
+.info
+{
+    position: relative;
+    bottom:50px;
+    font-size:14px;
+}
+.iconeInfo
+{
+    width:10%;
+}
+
+/*Travail sur la partie Populaire et Hébergement*/
+
+
+#hebergementmarseille
+{
+    display: block;
+    flex-direction: column;
+    position: relative;
+    top:-35px;
+}
+
+/*travail sur la partie populaire*/
+
+.blocpopulaire
+{
+    width:325px;
+    height:780px;
+    position:relative;
+    bottom:2770px;
+    right:40px;
+    border-radius:0;
+}
+.grostitre2
+{
+    font-size:22px;
+}
+.iconechart
+{
+    font-size:15px;
+    position: relative;
+    right:342px;
+}
+
+.photo2
+{
+    width:100%;
+    height:260px;
+    position:relative;
+    right:0px;
+}
+.titrehotel3, .soustitre3
+{
+    font-size:15px;
+}
+.image3
+{
+    width:35%;
+    height:180px;
+}
+.fond3
+{
+    width:50%;
+    height:180px;
+    position: relative;
+    bottom:147px;
+}
+.tablette2 
+{
+    position: relative;
+    top:-40px;
+}
+
+.tablette3
+{
+    position: relative;
+    top:-80px;
+}
+
+.etoilex, .etoiley, .etoilez
+{
+    width:28%;
+}
+
+.etoilex
+{
+    top:-35px;
+}
+.etoiley
+{
+    top:-35px;
+}
+.etoilez
+{
+    top:-35px;
+}
+
+
+/*Travail sur la partie Hébergement à Marseille*/
+
+.blochebergement
+{
+    width:100%;
+    height:2750px;
+    position:relative;
+    top:1000px;
+    right:30px;
+    background-color: transparent;
+    
+}
+.grostitre1
+{
+    font-size:22px;
+    padding-bottom:50px;
+    position: relative;
+    bottom:495px;
+}
+.titrehotel1, .titrehotel2
+{
+    font-size:15px;
+}
+
+.soustitre1, .soustitre2
+{
+    font-size:15px;
+}
+.soustitre2
+{
+    padding-top: 5px;
+}
+
+.cologne1, .cologne2
+{
+    width:100%;
+    display: block;
+    flex-direction: column;
+}
+.cologne1
+{
+    bottom:1050px;
+}
+.image1
+{
+    width:102%;
+    height:150px;
+}
+.fond1
+{
+    width:102%;
+    height:80px;
+}
+
+.posimg2
+{
+    position: relative;
+    bottom:20px;
+}
+.posimg3
+{
+    position: relative;
+    bottom:40px;
+}
+.fondpose1
+{
+    bottom:35px;
+}
+
+.fondpose2
+{
+    bottom:55px;
+}
+
+.fondpose3
+{
+    bottom:75px;
+}
+
+.cologne2
+{
+    bottom:1085px;
+}
+.image2
+{
+    width:102%;
+    height:150px;
+    position:relative;
+    top:65px;
+}
+.fond2
+{
+    width:102%;
+    height:80px;
+    top:20px;
+}
+.posimg4
+{
+    position: relative;
+    bottom:30px;
+}
+.posimg5
+{
+   
+    top:55px;
+}
+.posimg6
+{
+    position: relative;
+    top:45px;
+    
+}
+.fondpose4
+{
+    top:25px;
+}
+.fondpose5
+{
+    top:15px;
+}
+.fondpose6
+{
+    position:relative;
+    top:5px;
+    
+}
+
+.etoile
+{
+    width: 20%;
+}
+.etoile1
+{
+    top:10px;
+}
+
+.etoileb
+{
+    width: 20%;
+}
+.etoile2
+{
+    top:10px;
+}
+
+.plus
+{
+    top:-945px;
+    z-index: 1;
+}
+
+
+/*Travail sur l'activité à Marseille*/
+
+.conteneur
+{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    position: relative;
+    top:30px;
+}
+
+.grostitre3
+{
+    width:80%;
+    font-size:17px;
+    bottom:1080px;
+    left:48px;
+}
+.bloc1
+{
+    width:100%;
+    display: block;
+    flex-direction: column;
+    top:-540px;
+    right:15px;
+}
+
+.activimage1
+{
+    width:85%;
+    position: relative;
+    left:55px;
+    top:115px;
+}
+.activite1
+{
+    height:180px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+.titreactivite1
+{
+    width:100%;
+    height:70px;
+    position: relative;
+    top:150px;
+    left:0px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+.activimage2
+{
+    width:155%;
+    position: relative;
+    right:15px;
+    bottom:100px;
+}
+.activite2
+{
+    height:180px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+.titreactivite2
+{
+    width:90%;
+    height:70px;
+    position: relative;
+    top:150px;
+    left:0px;
+    box-shadow:5px 5px 5px gainsboro;
+
+}
+
+.activimage3
+{
+    width:155%;
+    position: relative;
+    top:-10px;
+    right:15px;
+}
+.activite3
+{
+    height:180px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+.titreactivite3
+{
+    width:90%;
+    height:70px;
+    position: relative;
+    top:140px;
+    left:0px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+
+.bloc2
+{
+    width:100%;
+    display: block;
+    flex-direction: column;
+    position: relative;
+    bottom:580px;
+    padding-bottom: 20px;
+}
+
+
+.activimage4
+{
+    width:84%;
+    position: relative;
+    left:48px;
+    top:115px;
+}
+.activite4
+{
+    height:180px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+.titreactivite4
+{
+    width:100%;
+    height:70px;
+    position: relative;
+    top:155px;
+    left:-10px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+.activimage5
+{
+    width:155%;
+    position: relative;
+    right:38px;
+    bottom:95px;
+}
+.activite5
+{
+    height:180px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+.titreactivite5
+{
+    width:90%;
+    height:70px;
+    position: relative;
+    top:150px;
+    left:77px;
+    box-shadow:5px 5px 5px gainsboro;
+
+}
+
+.activimage6
+{
+    width:155%;
+    position: relative;
+    top:-50px;
+    right:15px;
+}
+.activite6
+{
+    height:180px;
+    box-shadow:5px 5px 5px gainsboro;
+}
+
+.titreactivite6
+{
+    width:90%;
+    height:70px;
+    position: relative;
+    top:205px;
+    left:55px;
+}
+
+
+
+
+/*Travail sur le Footer*/
+
+
+.footer
+{
+    display: block;
+    flex-direction: column;
+    width:250%;
+    height:570px;
+    position: relative;
+    top:70px;
+}
+
+.titrefooter, .listeA
+{
+    font-size:20px;
+    width: 100%;
+}
+
+.apropos
+{
+    width:80%;
+    height:200px;
+    text-align: start;
+    position: relative;
+    left:50px;
+    top:50px;
+}
+
+.noshebergements
+{
+    width:52%;
+    height: 150px;
+    position: relative;
+    left:50px;
+    top:50px;
+}
+
+.assistance
+{
+    width:45%;
+    height: 150px;
+    position: relative;
+    left:50px;
+    top:50px;
+}
+
+
+
+}
 
 
 

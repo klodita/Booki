@@ -1,0 +1,17 @@
+Projet numéro 2 sur Open classroom : Création d'un site Booki 5 (Intégradtion Maquette html et Css)
+
+C'est un site vitrine qui présente les différents hôtels dans la région de Marseille, La responsivité à été faite en suivant les tailles d'écran 
+dans l'inspecteur entre 1440px et 320px cependant certaines tailles d'écran ont été ajouté suite à des test sur les supports réel (tablette et mobile)
+pour les ecran de 800px, 1280px mesure correspondant aux taille d'écran d'ordinateur portable et Tablette...
+
+Pour les mobiles il faut finir la responsivité pour les écran annexes (667px, 360px (réajuster selon le rendu), 480px 568px IPHONES) pour le fun afin 
+d'approfondir la pratique concernant les médias queries.
+
+concernant les support Téléphone Android, et Ipad la responsivité n'a pas été etudié.
+
+support visuel pour tester la responsivité : Extension chrome "Responsive web design tester" ; site web "apps-fr.orson.io/piresponsive" et
+"ami.responsivedesign.is" "ready.mobi"
+
+Emboulé claudia.
+
+

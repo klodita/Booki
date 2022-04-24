@@ -288,7 +288,6 @@ h1 + p
 {
     width:38%;
     height:50px;
-    padding: auto;
     padding-top:12px;
 }
 
@@ -304,7 +303,6 @@ h1 + p
 {
     width:40%;
     height:50px;
-    padding: auto;
     padding-top:12px;
 }
 
@@ -320,7 +318,6 @@ h1 + p
 {
     width:38%;
     height:50px;
-    padding: auto;
     padding-top:12px;
 }
 
@@ -336,7 +333,6 @@ h1 + p
 {
     width:25%;
     height:50px;
-    padding: auto;
     padding-top:12px;
 }
 
@@ -674,7 +670,6 @@ h1 + p
     display: flex;
     width:52%;
     height: 160px;
-    border:5px solid white;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: white;
@@ -682,7 +677,7 @@ h1 + p
     flex-direction: column;
     align-items: baseline;
     position: relative;
-    bottom:121px;
+    bottom:126px;
     z-index: 1;
     box-shadow:5px 5px 5px gainsboro;
 }
@@ -1275,7 +1270,6 @@ h1 + p
 {
     body 
     {
-        background-color:orange;
         width:1430px;
         align-items: center;
     }
@@ -1354,10 +1348,42 @@ h1 + p
         position: relative;
         right:12px;
     }
+
+    .titreactivite1
+   {
+       width:99%;
+       position: relative;
+       left:0px;
+   }
+
+   .titreactivite2, .titreactivite3
+   {
+       width:89%;
+       position:relative;
+       left:0px;
+   }
+
+   .titreactivite4
+   {
+       width:99%;
+       position: relative;
+       left:-10px;
+   }
+
+   .titreactivite5
+   {
+       width:89%;
+       position:relative;
+       left:77px;
+   }
+   .titreactivite6
+   {
+       width:89%;
+       position:relative;
+       left:55px;
+   }
     
 }
-
-
 
 
 
@@ -1369,7 +1395,7 @@ h1 + p
 @media (min-width:1025px) and (max-width:1280px)
 {
     body 
-    {   background-color:greenyellow;
+    {  
         width:1270px;
         align-items: center;
     }
@@ -1486,7 +1512,7 @@ h1 + p
     .fond3
     {
         position: relative;
-        bottom:127px;
+        bottom:132px;
     }
 
     .blocimage
@@ -1512,6 +1538,40 @@ h1 + p
         position: relative;
         right:22px;
     }
+
+    .titreactivite1
+   {
+       width:99%;
+       position: relative;
+       left:0px;
+   }
+
+   .titreactivite2, .titreactivite3
+   {
+       width:89%;
+       position:relative;
+       left:0px;
+   }
+
+   .titreactivite4
+   {
+       width:99%;
+       position: relative;
+       left:-10px;
+   }
+
+   .titreactivite5
+   {
+       width:89%;
+       position:relative;
+       left:77px;
+   }
+   .titreactivite6
+   {
+       width:89%;
+       position:relative;
+       left:55px;
+   }
 }
 
 
@@ -1522,7 +1582,6 @@ h1 + p
 
     body 
     {
-        background-color: pink;
         width:100.5%;
     }
     .logo
@@ -1744,7 +1803,7 @@ h1 + p
         width:65%;
         height:160px;
         position: relative;
-        bottom:131px;
+        bottom:136px;
     }
 
     .tablette2
@@ -1813,6 +1872,39 @@ h1 + p
         position:relative;
         left:19px;
     }
+    .titreactivite1
+   {
+       width:98%;
+       position: relative;
+       left:0px;
+   }
+
+   .titreactivite2, .titreactivite3
+   {
+       width:88%;
+       position:relative;
+       left:0px;
+   }
+
+   .titreactivite4
+   {
+       width:98%;
+       position: relative;
+       left:-10px;
+   }
+
+   .titreactivite5
+   {
+       width:88%;
+       position:relative;
+       left:77px;
+   }
+   .titreactivite6
+   {
+       width:88%;
+       position:relative;
+       left:55px;
+   }
 
     .footer
     {

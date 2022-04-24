@@ -7,7 +7,6 @@
 
 body 
 {
-    background-color:pink;
      width:100%;
      margin:0;
      padding:0;
@@ -251,7 +250,7 @@ header
     width:58%;
     height:250px;
     position: relative;
-    bottom:182px;
+    bottom:188px;
 }
 .etoilex, .etoiley, .etoilez
 {
@@ -668,7 +667,6 @@ header
 
 body 
 {
-    background-color: olive;
      width:100%;
      margin:0;
      padding:0;
@@ -911,7 +909,7 @@ header
     width:58%;
     height:250px;
     position: relative;
-    bottom:182px;
+    bottom:188px;
 }
 .etoilex, .etoiley, .etoilez
 {
@@ -1324,7 +1322,6 @@ header
 
     body 
     {
-        background-color:red;
          width:100%;
          margin:0;
          padding:0;
@@ -1587,7 +1584,7 @@ header
         width:29%;
         height:180px;
         position: relative;
-        bottom:141px;
+        bottom:146px;
     }
     .tablette2 
     {
@@ -2018,7 +2015,6 @@ header
 
 body 
 {
-    background-color:greenyellow;
      width:100%;
      margin:0;
      padding:0;
@@ -2278,7 +2274,7 @@ header
     width:25%;
     height:180px;
     position: relative;
-    bottom:147px;
+    bottom:152px;
 }
 .tablette2 
 {
@@ -2299,7 +2295,7 @@ header
 
 .etoilex
 {
-    top:35px;
+    top:55px;
 }
 .etoiley
 {
@@ -2706,7 +2702,6 @@ header
 
 body 
 {
-    background-color:violet;
      width:100%;
      max-width: max-content;
      margin:0;
@@ -2990,7 +2985,7 @@ header
     width:52%;
     height:170px;
     position: relative;
-    bottom:138px;
+    bottom:143px;
 }
 .tablette2 
 {

@@ -1,24 +1,7 @@
-
-
-/*******************************************************************************************************Pour Tablette 768px*********************/
-
-
-
-
-@media (min-width:768px) and (max-width:790px)
-
-
+@media (min-width: 768px) and (max-width:991px)
 {
 
-
-body 
-{
-     width:758px;
-     margin:0;
-     padding:0;
-     overflow-x: hidden;
-}
-
+  
 
 /*Travail sur la Navigation et logo*/
 
@@ -56,15 +39,13 @@ body
     right:80px;
 }
 
+.tabpositionh1
+{
+    padding-top:20px;
+}
 
 
 /*Travail sur la barre de recherche*/
-
-.rep, .reptext
-{
-    display: none;
-}
-
 
 .logo-color
 {
@@ -78,18 +59,11 @@ body
 {
     padding-left: 10px;
 }
-.loupe 
+.rep 
 {
     display: flex;
-    width:8%;
-    font-size:18px;
-    padding-top:15px;
-    color: white;
-    border:none;
-    background-color: #0065FC;
-    border-radius:15px;
-    position: relative;
-    right:10px;
+    width:18%;
+    
 }
 
 /*Travail sur les Filtres*/
@@ -97,62 +71,78 @@ body
 .filtre
 {
     display: block;
-    flex-direction: column;
+    flex-direction:row;
+    width:80%;
+}
+.F1 
+{
+    position: relative;
+    top:15px;
+    left:40px;
 }
 .F2 
 {
     position: relative;
     left:10px;
+    height:45px;
 }
-.icon1
+
+.iconefiltres
 {
-    width:40%;
+    width:45%;
+    height:45px;
+}
+
+.ftext 
+{
+    padding-left: 5px;
+    font-size:18px;
 }
 
 .ftext1
 {
-    width:24%;
+    width:27%;
 }
 
-.icon2
+ .ftext2
 {
-    width: 40%;
+    width:23%;
 }
-.ftext2
+.icon1,.icon2
 {
-    width:25%;
-    position: relative;
-    left:210px;
-    top:-70px;
+    width:48%;
+    padding-top: 10px;
 }
 
-.ftext3, .ftext4
-{
-    bottom:70px;
-}
-
-.icon3
-{
-    width:35%;
-}
 .ftext3
 {
     width:30%;
 }
-.icon4
+.icon3
 {
-    width:24%;
-}
-.ftext4
-{
-    width:40%;
+    width:33%;
+    padding-top: 10px;
 }
 
-.info
+.ftext1, .ftext2,.ftext3
 {
-    position: relative;
-    bottom:50px;
+    display: inline-flex;
+    margin:5px;
+    position:relative;
+    left:25px;
 }
+
+.ftext4
+{
+    width:45%;
+}
+.icon4
+{
+    width:25%;
+    padding-top: 10px;
+}
+
+
 .iconeInfo
 {
     width:4.5%;
@@ -163,1649 +153,175 @@ body
 
 #hebergementmarseille
 {
-    display: block;
+    display: flex;
     flex-direction: column;
-    position: relative;
-    top:-35px;
+}
+.blochebergement
+{
+    width:92%;
 }
 
-/*travail sur la partie populaire*/
+.titrehotel1, .soustitre1
+{
+    font-size:72%;
+}
+
+.titrehotel2, .soustitre2
+{
+    font-size:72%;
+    padding-bottom: 5px;
+}
+
+.etoile1, .etoile2
+{
+    top:12px;
+}
+
 
 .blocpopulaire
 {
-    width:760px;
-    height:980px;
-    position:relative;
-    bottom:2770px;
-    right:40px;
-    border-radius:0;
-}
-.grostitre2
-{
-    font-size: 25px;
-}
-.iconechart
-{
-    left:5px;
+    display: flex;
+    width:92%;
+    height:770px;
 }
 
-.photo2
-{
-    width:95%;
-    height:260px;
-    position:relative;
-    left:20px;
-}
 .titrehotel3, .soustitre3
 {
-    font-size:23px;
+    font-size:100%;
+    position: relative;
+    left:15px;
 }
-.image3
+
+.image3, .fond3
 {
-    width:40%;
-    height:250px;
+    height:190px;
 }
 .fond3
 {
-    width:58%;
-    height:250px;
+    bottom:152px;
+}
+.etoile3
+{
+    width:12%;
+    font-size:18px;
     position: relative;
-    bottom:206px;
+    left:15px;
 }
-.etoilex, .etoiley, .etoilez
-{
-    width:28%;
-    
-}
-
-.etoilex
-{
-    top:55px;
+.etoilex, .etoilez
+{   position: relative;
+    top:30px;
 }
 .etoiley
-{
-    top:35px;
-}
-.etoilez
-{
-    top:65px;
-}
-
-
-/*Travail sur la partie Hébergement à Marseille*/
-
-.blochebergement
-{
-    width:100%;
-    height:2750px;
-    position:relative;
-    top:1000px;
-    right:20px;
-    background-color: transparent;
-    
-}
-.grostitre1
-{
-    font-size: 25px;
-    position: relative;
-    bottom:285px;
-}
-.titrehotel1, .titrehotel2
-{
-    font-size:23px;
-}
-
-.soustitre1, .soustitre2
-{
-    font-size:23px;
-}
-
-.cologne1, .cologne2
-{
-    width:100%;
-    display: block;
-    flex-direction: column;
-}
-.cologne1
-{
-    bottom:820px;
-}
-.image1
-{
-    width:95%;
-    height:280px;
-}
-.fond1
-{
-    width:95%;
-    height:120px;
-}
-
-.posimg2
-{
-    position: relative;
-    bottom:20px;
-}
-.posimg3
-{
-    position: relative;
-    bottom:40px;
-}
-.fondpose1
-{
-    bottom:35px;
-}
-
-.fondpose2
-{
-    bottom:55px;
-}
-
-.fondpose3
-{
-    bottom:75px;
-}
-
-.cologne2
-{
-    bottom:350px;
-}
-.image2
-{
-    width:95%;
-    height:280px;
-    position:relative;
-    top:65px;
-}
-.fond2
-{
-    width:95%;
-    height:120px;
-    top:20px;
-}
-.posimg4
-{
-    position: relative;
-    bottom:30px;
-}
-.posimg5
-{
-   
-    top:55px;
-}
-.posimg6
-{
-    position: relative;
-    top:45px;
-    
-}
-.fondpose4
-{
-    top:25px;
-}
-.fondpose5
-{
-    top:15px;
-}
-.fondpose6
-{
-    position:relative;
-    top:5px;
-    
-}
-
-.etoile
-{
-    width: 20%;
-}
-.etoile1
-{
+{   position: relative;
     top:10px;
 }
-
-.etoileb
-{
-    width: 20%;
-}
-.etoile2
-{
-    top:10px;
-}
-
-.plus
-{
-    top:315px;
-    z-index: 1;
-}
-
-
-/*Travail sur l'activité à Marseille*/
 
 .conteneur
 {
-    display:flex;
-    width:100%;
+    display: flex;
     flex-direction: column;
-    position: relative;
-    top:300px;
+    flex-grow: 1;
 }
 
-.grostitre3
+.bloc1, .bloc2
 {
-    font-size:18px;
-    bottom:30px;
-    left:58px;
+    width:90%;
 }
 .bloc1
 {
-    width:100%;
-    display: block;
-    flex-direction: column;
-    top:240px;
+    position:relative;
+    top:190px;
+    left:10px;
 }
-
-.activimage1
-{
-    width:88%;
-    position: relative;
-    left:55px;
-    top:115px;
-}
-.activite1
-{
-    height: 280px;
-    box-shadow:5px 5px 5px gainsboro;
-}
-.titreactivite1
-{
-    width:100%;
-    height:70px;
-    position: relative;
-    top:250px;
-    left:0px;
-    box-shadow:5px 5px 5px gainsboro;
-}
-
-.activimage2
-{
-    width:165%;
-    position: relative;
-    right:20px;
-}
-.activite2
-{
-    height:280px;
-    box-shadow:5px 5px 5px gainsboro;
-}
-.titreactivite2
-{
-    width:89.9%;
-    height:70px;
-    position: relative;
-    top:250px;
-    left:0px;
-    box-shadow:5px 5px 5px gainsboro;
-
-}
-
-.activimage3
-{
-    width:165%;
-    position: relative;
-    top:180px;
-    right:20px;
-}
-.activite3
-{
-    height:280px;
-    box-shadow:5px 5px 5px gainsboro;
-}
-
-.titreactivite3
-{
-    width:89.9%;
-    height:70px;
-    position: relative;
-    top:240px;
-    left:0px;
-    box-shadow:5px 5px 5px gainsboro;
-}
-
 
 .bloc2
 {
-    width:100%;
-    display: block;
-    flex-direction: column;
+    position:relative;
+    top:225px;
+    left:25px;
+}
+.activimage1
+{
+    width:46%;
     position: relative;
-    top:485px;
-    padding-bottom: 20px;
+    left:25px;
+}
+.blocimage
+{
+    width:50%;
+    position: relative;
+    left:70px;
+    flex-direction: column;
 }
 
-
+.activimage2, .activimage3
+{
+    flex-grow:1;
+    width:108%;
+    margin:0;
+    padding:0;
+}
 .activimage4
 {
-    width:89.2%;
+    width:46%;
     position: relative;
-    left:55px;
-    top:115px;
+    left:20px;
+
 }
-.activite4
+.blocimage2
 {
-    height:280px;
-    box-shadow:5px 5px 5px gainsboro;
+   width:50%;
 }
-.titreactivite4
+
+.activimage5, .activimage6
 {
-    width:100%;
-    height:70px;
-    position: relative;
-    top:250px;
-    left:-10px;
-    box-shadow:5px 5px 5px gainsboro;
+    flex-grow:1;
+    width:108%;
+    margin:0;
+    padding:0;
 }
-
-.activimage5
-{
-    width:165%;
-    position: relative;
-    right:30px;
-}
-.activite5
-{
-    height:280px;
-    box-shadow:5px 5px 5px gainsboro;
-}
-.titreactivite5
-{
-    width:89.9%;
-    height:70px;
-    position: relative;
-    top:250px;
-    left:77px;
-    box-shadow:5px 5px 5px gainsboro;
-
-}
-
-.activimage6
-{
-    width:165%;
-    position: relative;
-    top:135px;
-    right:10px;
-}
-.activite6
-{
-    height:280px;
-    box-shadow:5px 5px 5px gainsboro;
-}
-
-.titreactivite6
-{
-    width:89.9%;
-    height:70px;
-    position: relative;
-    top:305px;
-    left:55px;
-}
-
-
-
-
-/*Travail sur le Footer*/
-
 
 .footer
-{
-    height:170px;
-    position: relative;
-    top:1670px;
+{   width:100.6%; 
+    height:190px;
+    position:relative;
+    top:520px;
 }
 
-.titrefooter, .listeA
+.titrefooter
 {
-    font-size: 14px;
+    font-size:16px;
+}
+.listeA
+{
+    width:102%;
+    font-size:15px;
 }
 
 .apropos
 {
-    width:70%;
-    height: 150px;
-    position: relative;
-    left:110px;
+    width:105%;
+    height:150px;
+    left:50px;
 }
 
 .noshebergements
 {
-    width:52%;
-    height: 150px;
-    position: relative;
-    left:75px;
+    width:105%;
+    height:150px;
+    left:50px;
 }
 
 .assistance
 {
-    width:45%;
-    height: 150px;
+    width:75%;
+    height:150px;
     position: relative;
-    left:5px;
+    left:50px;
+   
 }
 
 
 
 }
-
-
-
-
-
-
-/****************************************************************************Pour tablette 800px**********************************************/
-
-
-
-
-@media (min-width:791px) and (max-width:944px) 
-
-
-{
-
-
-    body 
-    {
-         width:800px;
-         margin:0;
-         padding:0;
-         overflow-x: hidden;
-    }
-    
-    
-    /*Travail sur la Navigation et logo*/
-    
-    .logo 
-    {
-        width:23.5%;
-    }
-    
-    .line
-    {
-        width:100%;
-        position: relative;
-        right: 130px;
-    }
-    
-    .line1
-    {
-        width:100%;
-        position: relative;
-        right:80px;
-    }
-    .line:hover
-    {
-        width:100%;
-        color:#0065FC;
-        position: relative;
-        right: 130px;
-    }
-    
-    .line1:hover
-    {
-        width:100%;
-        color:#0065FC;
-        position: relative;
-        right:80px;
-    }
-    
-    
-    
-    /*Travail sur la barre de recherche*/
-    
-    .rep, .reptext
-    {
-        display: none;
-    }
-    
-    
-    .logo-color
-    {
-        width:8%;
-    }
-    .A 
-    {
-        width:30%;
-    }
-    ::placeholder
-    {
-        padding-left: 10px;
-    }
-    .loupe 
-    {
-        display: flex;
-        width:8%;
-        font-size:18px;
-        padding-top:15px;
-        color: white;
-        border:none;
-        background-color: #0065FC;
-        border-radius:15px;
-        position: relative;
-        right:10px;
-    }
-    
-    /*Travail sur les Filtres*/
-    
-    .filtre
-    {
-        display: block;
-        flex-direction: column;
-    }
-    .F2 
-    {
-        position: relative;
-        left:10px;
-    }
-    .icon1
-    {
-        width:40%;
-    }
-    
-    .ftext1
-    {
-        width:24%;
-    }
-    
-    .icon2
-    {
-        width: 40%;
-    }
-    .ftext2
-    {
-        width:25%;
-        position: relative;
-        left:210px;
-        top:-70px;
-    }
-    
-    .ftext3, .ftext4
-    {
-        bottom:70px;
-    }
-    
-    .icon3
-    {
-        width:35%;
-    }
-    .ftext3
-    {
-        width:30%;
-    }
-    .icon4
-    {
-        width:24%;
-    }
-    .ftext4
-    {
-        width:40%;
-    }
-    
-    .info
-    {
-        position: relative;
-        bottom:50px;
-    }
-    .iconeInfo
-    {
-        width:4%;
-    }
-    
-    /*Travail sur la partie Populaire et Hébergement*/
-    
-    
-    #hebergementmarseille
-    {
-        display: block;
-        flex-direction: column;
-        position: relative;
-        top:-35px;
-    }
-    
-    /*travail sur la partie populaire*/
-    
-    .blocpopulaire
-    {
-        width:800px;
-        height:980px;
-        position:relative;
-        bottom:2770px;
-        right:40px;
-        border-radius:0;
-    }
-    .grostitre2
-    {
-        font-size: 25px;
-    }
-    .iconechart
-    {
-        left:5px;
-    }
-    
-    .photo2
-    {
-        width:95%;
-        height:260px;
-        position:relative;
-        left:20px;
-    }
-    .titrehotel3, .soustitre3
-    {
-        font-size:23px;
-    }
-    .image3
-    {
-        width:40%;
-        height:250px;
-    }
-    .fond3
-    {
-        width:58%;
-        height:250px;
-        position: relative;
-        bottom:206px;
-    }
-    .etoilex, .etoiley, .etoilez
-    {
-        width:28%;
-        
-    }
-    
-    .etoilex
-    {
-        top:55px;
-    }
-    .etoiley
-    {
-        top:35px;
-    }
-    .etoilez
-    {
-        top:65px;
-    }
-    
-    
-    /*Travail sur la partie Hébergement à Marseille*/
-    
-    .blochebergement
-    {
-        width:100%;
-        height:2750px;
-        position:relative;
-        top:1000px;
-        right:20px;
-        background-color: transparent;
-        
-    }
-    .grostitre1
-    {
-        font-size: 25px;
-        position: relative;
-        bottom:285px;
-    }
-    .titrehotel1, .titrehotel2
-    {
-        font-size:23px;
-    }
-    
-    .soustitre1, .soustitre2
-    {
-        font-size:23px;
-    }
-    
-    .cologne1, .cologne2
-    {
-        width:100%;
-        display: block;
-        flex-direction: column;
-    }
-    .cologne1
-    {
-        bottom:820px;
-    }
-    .image1
-    {
-        width:95%;
-        height:280px;
-    }
-    .fond1
-    {
-        width:95%;
-        height:120px;
-    }
-    
-    .posimg2
-    {
-        position: relative;
-        bottom:20px;
-    }
-    .posimg3
-    {
-        position: relative;
-        bottom:40px;
-    }
-    .fondpose1
-    {
-        bottom:35px;
-    }
-    
-    .fondpose2
-    {
-        bottom:55px;
-    }
-    
-    .fondpose3
-    {
-        bottom:75px;
-    }
-    
-    .cologne2
-    {
-        bottom:350px;
-    }
-    .image2
-    {
-        width:95%;
-        height:280px;
-        position:relative;
-        top:65px;
-    }
-    .fond2
-    {
-        width:95%;
-        height:120px;
-        top:20px;
-    }
-    .posimg4
-    {
-        position: relative;
-        bottom:30px;
-    }
-    .posimg5
-    {
-       
-        top:55px;
-    }
-    .posimg6
-    {
-        position: relative;
-        top:45px;
-        
-    }
-    .fondpose4
-    {
-        top:25px;
-    }
-    .fondpose5
-    {
-        top:15px;
-    }
-    .fondpose6
-    {
-        position:relative;
-        top:5px;
-        
-    }
-    
-    .etoile
-    {
-        width: 20%;
-    }
-    .etoile1
-    {
-        top:10px;
-    }
-    
-    .etoileb
-    {
-        width: 20%;
-    }
-    .etoile2
-    {
-        top:10px;
-    }
-    
-    .plus
-    {
-        top:315px;
-        z-index: 1;
-    }
-    
-    
-    /*Travail sur l'activité à Marseille*/
-    
-    .conteneur
-    {
-        display:flex;
-        width:100%;
-        flex-direction: column;
-        position: relative;
-        top:300px;
-    }
-    
-    .grostitre3
-    {
-        font-size:18px;
-        bottom:30px;
-        left:58px;
-    }
-    .bloc1
-    {
-        width:100%;
-        display: block;
-        flex-direction: column;
-        top:240px;
-    }
-    
-    .activimage1
-    {
-        width:88%;
-        position: relative;
-        left:55px;
-        top:115px;
-    }
-    .activite1
-    {
-        height: 280px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    .titreactivite1
-    {
-        width:100%;
-        height:70px;
-        position: relative;
-        top:250px;
-        left:0px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    
-    .activimage2
-    {
-        width:165%;
-        position: relative;
-        right:20px;
-    }
-    .activite2
-    {
-        height:280px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    .titreactivite2
-    {
-        width:89.9%;
-        height:70px;
-        position: relative;
-        top:250px;
-        left:0px;
-        box-shadow:5px 5px 5px gainsboro;
-    
-    }
-    
-    .activimage3
-    {
-        width:165%;
-        position: relative;
-        top:180px;
-        right:20px;
-    }
-    .activite3
-    {
-        height:280px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    
-    .titreactivite3
-    {
-        width:89.9%;
-        height:70px;
-        position: relative;
-        top:240px;
-        left:0px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    
-    
-    .bloc2
-    {
-        width:100%;
-        display: block;
-        flex-direction: column;
-        position: relative;
-        top:485px;
-        padding-bottom: 20px;
-    }
-    
-    
-    .activimage4
-    {
-        width:89.2%;
-        position: relative;
-        left:55px;
-        top:115px;
-    }
-    .activite4
-    {
-        height:280px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    .titreactivite4
-    {
-        width:100%;
-        height:70px;
-        position: relative;
-        top:250px;
-        left:-10px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    
-    .activimage5
-    {
-        width:165%;
-        position: relative;
-        right:30px;
-    }
-    .activite5
-    {
-        height:280px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    .titreactivite5
-    {
-        width:89.9%;
-        height:70px;
-        position: relative;
-        top:250px;
-        left:77px;
-        box-shadow:5px 5px 5px gainsboro;
-    
-    }
-    
-    .activimage6
-    {
-        width:165%;
-        position: relative;
-        top:135px;
-        right:10px;
-    }
-    .activite6
-    {
-        height:280px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    
-    .titreactivite6
-    {
-        width:89.9%;
-        height:70px;
-        position: relative;
-        top:305px;
-        left:55px;
-    }
-    
-    
-    
-    
-    /*Travail sur le Footer*/
-    
-    
-    .footer
-    {
-        height:170px;
-        position: relative;
-        top:1670px;
-    }
-    
-    .titrefooter, .listeA
-    {
-        font-size: 14px;
-    }
-    
-    .apropos
-    {
-        width:70%;
-        height: 150px;
-        position: relative;
-        left:110px;
-    }
-    
-    .noshebergements
-    {
-        width:52%;
-        height: 150px;
-        position: relative;
-        left:75px;
-    }
-    
-    .assistance
-    {
-        width:45%;
-        height: 150px;
-        position: relative;
-        left:5px;
-    }
-    
-    
-    
-    }
-    
-
-
-/******************************************************************************************Pour tablette 960px**********************************/
-
-
-@media (min-width:945px) and (max-width:991px)  
-
-{
-
-
-    body 
-    {
-         width:960px;
-         margin:0;
-         padding:0;
-         overflow-x: hidden;
-    }
-    
-    
-    /*Travail sur la Navigation et logo*/
-    
-    .logo 
-    {
-        width:19.5%;
-    }
-    
-    .line
-    {
-        width:100%;
-        position: relative;
-        right: 130px;
-    }
-    
-    .line1
-    {
-        width:100%;
-        position: relative;
-        right:80px;
-    }
-    .line:hover
-    {
-        width:100%;
-        color:#0065FC;
-        position: relative;
-        right: 130px;
-    }
-    
-    .line1:hover
-    {
-        width:100%;
-        color:#0065FC;
-        position: relative;
-        right:80px;
-    }
-    
-    
-    
-    /*Travail sur la barre de recherche*/
-    
-    .rep, .reptext
-    {
-        display: none;
-    }
-    
-    
-    .logo-color
-    {
-        width:6%;
-    }
-    .A 
-    {
-        width:23%;
-    }
-    ::placeholder
-    {
-        padding-left:10px;
-    }
-    .loupe 
-    {
-        display: flex;
-        width:7%;
-        font-size:18px;
-        padding-top:15px;
-        color: white;
-        border:none;
-        background-color: #0065FC;
-        border-radius:15px;
-        position: relative;
-        right:10px;
-    }
-    
-    /*Travail sur les Filtres*/
-    
-    .filtre
-    {
-        display: block;
-        flex-direction: column;
-    }
-    .F2 
-    {
-        position: relative;
-        left:10px;
-    }
-    .icon1
-    {
-        width:35%;
-    }
-    
-    .ftext1
-    {
-        width:20%;
-    }
-    
-    .icon2
-    {
-        width:45%;
-    }
-    .ftext2
-    {
-        width:18%;
-        position: relative;
-        left:230px;
-        top:-70px;
-    }
-    
-    .ftext3, .ftext4
-    {
-        bottom:70px;
-    }
-    
-    .icon3
-    {
-        width:34%;
-    }
-    .ftext3
-    {
-        width:23%;
-    }
-    .icon4
-    {
-        width:24%;
-    }
-    .ftext4
-    {
-        width:32%;
-    }
-    
-    .info
-    {
-        position: relative;
-        bottom:50px;
-    }
-    .iconeInfo
-    {
-        width:4.5%;
-    }
-    
-    /*Travail sur la partie Populaire et Hébergement*/
-    
-    
-    #hebergementmarseille
-    {
-        display: block;
-        flex-direction: column;
-        position: relative;
-        top:-35px;
-    }
-    
-    /*travail sur la partie populaire*/
-    
-    .blocpopulaire
-    {
-        width:960px;
-        height:1090px;
-        padding-bottom: 30px;
-        position:relative;
-        bottom:2790px;
-        right:40px;
-        border-radius:0;
-    }
-
-    .grostitre2
-    {
-        font-size: 25px;
-    }
-    .iconechart
-    {
-        left:5px;
-    }
-    
-    .photo2
-    {
-        width:95%;
-        height:260px;
-        position:relative;
-        left:20px;
-    }
-    .titrehotel3, .soustitre3
-    {
-        font-size:23px;
-    }
-    .image3
-    {
-        width:40%;
-        height:270px;
-    }
-    .fond3
-    {
-        width:58%;
-        height:270px;
-        position: relative;
-        bottom:226px;
-    }
-
-    .tablette2
-    {
-        padding-top: 30px;
-    }
-    .tablette3
-    {
-        padding-top:60px;
-    }
-
-    .etoilex, .etoiley, .etoilez
-    {
-        width:28%;
-        
-    }
-    
-    .etoilex
-    {
-        top:55px;
-    }
-    .etoiley
-    {
-        top:35px;
-    }
-    .etoilez
-    {
-        top:65px;
-    }
-    
-    
-    /*Travail sur la partie Hébergement à Marseille*/
-    
-    .blochebergement
-    {
-        width:100%;
-        height:2750px;
-        position:relative;
-        top:1100px;
-        right:20px;
-        background-color: transparent;
-        
-    }
-    .grostitre1
-    {
-        font-size: 25px;
-        position: relative;
-        bottom:295px;
-    }
-    .titrehotel1, .titrehotel2
-    {
-        font-size:23px;
-    }
-    
-    .soustitre1, .soustitre2
-    {
-        font-size:23px;
-    }
-    
-    .cologne1, .cologne2
-    {
-        width:100%;
-        display: block;
-        flex-direction: column;
-    }
-    .cologne1
-    {
-        bottom:830px;
-    }
-    .image1
-    {
-        width:95%;
-        height:380px;
-    }
-    .fond1
-    {
-        width:95%;
-        height:120px;
-    }
-    
-    .posimg2
-    {
-        position: relative;
-        bottom:20px;
-    }
-    .posimg3
-    {
-        position: relative;
-        bottom:40px;
-    }
-    .fondpose1
-    {
-        bottom:35px;
-    }
-    
-    .fondpose2
-    {
-        bottom:55px;
-    }
-    
-    .fondpose3
-    {
-        bottom:75px;
-    }
-    
-    .cologne2
-    {
-        bottom:50px;
-    }
-    .image2
-    {
-        width:95%;
-        height:380px;
-        position:relative;
-        top:65px;
-    }
-    .fond2
-    {
-        width:95%;
-        height:120px;
-        top:20px;
-    }
-    .posimg4
-    {
-        position: relative;
-        bottom:30px;
-    }
-    .posimg5
-    {
-       
-        top:55px;
-    }
-    .posimg6
-    {
-        position: relative;
-        top:45px;
-        
-    }
-    .fondpose4
-    {
-        top:25px;
-    }
-    .fondpose5
-    {
-        top:15px;
-    }
-    .fondpose6
-    {
-        position:relative;
-        top:5px;
-        
-    }
-    
-    .etoile
-    {
-        width: 20%;
-    }
-    .etoile1
-    {
-        top:10px;
-    }
-    
-    .etoileb
-    {
-        width: 20%;
-    }
-    .etoile2
-    {
-        top:10px;
-    }
-    
-    .plus
-    {
-        top:915px;
-        z-index: 1;
-    }
-    
-    
-    /*Travail sur l'activité à Marseille*/
-    
-    .conteneur
-    {
-        display:flex;
-        width:100%;
-        flex-direction: column;
-        position: relative;
-        top:900px;
-    }
-    
-    .grostitre3
-    {
-        font-size:18px;
-        bottom:-570px;
-        left:58px;
-    }
-    .bloc1
-    {
-        width:100%;
-        display: block;
-        flex-direction: column;
-        top:240px;
-    }
-    
-    .activimage1
-    {
-        width:88.9%;
-        position: relative;
-        left:55px;
-        top:115px;
-    }
-    .activite1
-    {
-        height: 380px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    .titreactivite1
-    {
-        width:100%;
-        height:70px;
-        position: relative;
-        top:350px;
-        left:0px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    
-    .activimage2
-    {
-        width:165%;
-        position: relative;
-        right:20px;
-        top:105px;
-        
-    }
-    .activite2
-    {
-        height:380px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    .titreactivite2
-    {
-        width:90%;
-        height:70px;
-        position: relative;
-        top:350px;
-        left:0px;
-        box-shadow:5px 5px 5px gainsboro;
-    
-    }
-    
-    .activimage3
-    {
-        width:165%;
-        position: relative;
-        top:400px;
-        right:20px;
-    }
-    .activite3
-    {
-        height:380px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    
-    .titreactivite3
-    {
-        width:90%;
-        height:70px;
-        position: relative;
-        top:340px;
-        left:0px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    
-    
-    .bloc2
-    {
-        width:100%;
-        display: block;
-        flex-direction: column;
-        position: relative;
-        top:485px;
-        padding-bottom: 20px;
-    }
-    
-    
-    .activimage4
-    {
-        width:89.2%;
-        position: relative;
-        left:55px;
-        top:445px;
-    }
-    .activite4
-    {
-        height:380px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    .titreactivite4
-    {
-        width:100%;
-        height:70px;
-        position: relative;
-        top:355px;
-        left:-10px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    
-    .activimage5
-    {
-        width:165%;
-        position: relative;
-        right:30px;
-        top:440px;
-    }
-    .activite5
-    {
-        height:380px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    .titreactivite5
-    {
-        width:90%;
-        height:70px;
-        position: relative;
-        top:350px;
-        left:77px;
-        box-shadow:5px 5px 5px gainsboro;
-    
-    }
-    
-    .activimage6
-    {
-        width:165%;
-        position: relative;
-        top:695px;
-        right:10px;
-    }
-    .activite6
-    {
-        height:380px;
-        box-shadow:5px 5px 5px gainsboro;
-    }
-    
-    .titreactivite6
-    {
-        width:90%;
-        height:70px;
-        position: relative;
-        top:405px;
-        left:55px;
-    }
-    
-    
-    /*Travail sur le Footer*/
-    
-    
-    .footer
-    {
-        height:170px;
-        position: relative;
-        top:2990px;
-    }
-    
-    .titrefooter, .listeA
-    {
-        font-size: 14px;
-    }
-    
-    .apropos
-    {
-        width:70%;
-        height: 150px;
-        position: relative;
-        left:110px;
-    }
-    
-    .noshebergements
-    {
-        width:52%;
-        height: 150px;
-        position: relative;
-        left:75px;
-    }
-    
-    .assistance
-    {
-        width:45%;
-        height: 150px;
-        position: relative;
-        left:5px;
-    }
-    
-    
-    
-    }
-    
-
-
-
-
-
-
 

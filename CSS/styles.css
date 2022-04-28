@@ -10,6 +10,7 @@
 
 body
 {
+    width: 100%;
     position: relative;
     right: 5px;
 }
@@ -694,8 +695,8 @@ h1 + p
 .x
 {
     font-size:18px;
-    width:100%;
-    font-weight: bolder;   
+    width:75%;
+    font-weight: bolder;  
 }
 
 .y
@@ -726,6 +727,12 @@ h1 + p
     bottom: 30px;
 }
 
+
+.etoile3
+{
+    color: #0065FC;
+    font-size: 15px;
+}
 .etoilex, .etoiley, .etoilez
 {
     width: 50%;
@@ -735,31 +742,22 @@ h1 + p
 {
     display: flex;
     align-items: baseline; 
-    position: relative;
-    bottom:5px;
+    
 }
 
 .etoiley
 {
     display:flex;
-    align-items:baseline; 
-    position:relative;
-    bottom:5px;
+    align-items:baseline;    
 }
 
 .etoilez
 {
     display:flex;
     align-items:baseline; 
-    position:relative;
-    bottom:5px;
 }
 
-.etoile3
-{
-    color: #0065FC;
-    font-size: 15px;
-}
+
 
 .tablette2
 {
@@ -1253,7 +1251,7 @@ h1 + p
     right: 80px;
 }
 
-/*Réservé pour la barre de recherche version mobile et petite tablette 600px */
+/*Réservé pour la barre de recherche version mobile */
 
 .loupe 
 {
@@ -1263,325 +1261,17 @@ h1 + p
 
 
 
-/************************************************************************************Ordinateur 1440PX*************************/
-
-@media (min-width:1281px) and (max-width:1440px)
-{
-    body 
-    {
-        width:1430px;
-        align-items: center;
-    }
-
-    .logo
-    {
-        width:13%;
-    }
-    .F2
-    {
-        position: relative;
-        right:190px;
-    }
-
-    .ftext1
-    {
-        width: 65%;
-        height: auto;
-        margin-right: 10px;
-    }
-    .icon2
-    {
-        width:43%;
-    }
-    .ftext2
-    {
-        width: 60%;
-        height: auto;
-    }
-    .ftext3
-    {
-        width:70%;
-        height: auto;
-        
-    }
-    .icon4
-    {
-        width:24.2%;
-    }
-    .ftext4
-    {
-        width:100%;
-        height: auto;
-    }
-    .etoilex
-    {
-        position:relative;
-        bottom:5px;
-    }
-
-    .soustitre1, .soustitre2, .soustitre3
-    {
-        font-size: 17px;
-    }
-
-    .blocimage
-    {
-        position: relative;
-        left:65px;
-    }
-
-    .activimage4
-    {
-        position: relative;
-        left:20px;
-    }
-
-    .activimage5
-    {
-        position: relative;
-        right:32px;
-    }
-
-    .activimage6
-    {
-        position: relative;
-        right:12px;
-    }
-
-    .titreactivite1
-   {
-       width:99%;
-       position: relative;
-       left:0px;
-   }
-
-   .titreactivite2, .titreactivite3
-   {
-       width:89%;
-       position:relative;
-       left:0px;
-   }
-
-   .titreactivite4
-   {
-       width:99%;
-       position: relative;
-       left:-10px;
-   }
-
-   .titreactivite5
-   {
-       width:89%;
-       position:relative;
-       left:77px;
-   }
-   .titreactivite6
-   {
-       width:89%;
-       position:relative;
-       left:55px;
-   }
-    
-}
-
-
-
-
-
-/**************************************************************************************Ordinateur 1280px*************************************/
-
-
-@media (min-width:1025px) and (max-width:1280px)
-{
-    body 
-    {  
-        width:1270px;
-        align-items: center;
-    }
-
-    .logo
-    {
-        width:15%;
-    }
-    .line
-    {
-       position:relative;
-       right:70px;  
-    }
-
-    .line:hover
-    {
-        position:relative;
-        right:70px;
-    }
-
-    .log1
-    {
-        position: relative;
-        right: 5px;
-    }
-
-    .rep
-    {
-        width:10%;
-        text-align:left;
-    }
-    .F2
-    {
-        position: relative;
-        left:-160px;
-    }
-
-    .ftext1
-    {
-        width: 65%;
-        height: auto;
-    }
-
-    .ftext2
-    {
-        width: 60%;
-        height: auto;
-    }
-    .ftext3
-    {
-        width:70%;
-        height: auto;
-        
-    }
-    .ftext4
-    {
-        width:100%;
-        height: auto;
-    }
-    .iconeInfo
-    {
-       width:2.5%;
-    }
-
-    .blocpopulaire
-    {
-        position: relative;
-        right: 10px;
-    }
-
-    .x, .y, .z
-    {
-        font-size: 15px;
-       
-    }
-    .titrehotel1, .titrehotel2, .titrehotel3
-    {
-        font-size: 15px;
-    }
-    .soustitre1, .soustitre2
-    {
-        font-size: 14px;
-        padding-bottom: 5px;
-    }
-
-     .soustitre3
-    {
-        font-size: 14px;
-        padding-top: 10px;
-    }
-    
-    .etoilex
-    {
-        position:relative;
-        top:5px;
-    }
-
-    .etoiley
-    {
-        position:relative;
-        top:5px;
-    }
-
-    .etoilez
-    {
-        position:relative;
-        top:5px;
-    }
-    
-    .photo2
-    {
-        align-items: baseline;
-    }
-    .fond3
-    {
-        position: relative;
-        bottom:132px;
-    }
-
-    .blocimage
-    {
-        position: relative;
-        left:60px;
-    }
-
-    .activimage4
-    {
-        position: relative;
-        left:15px;
-    }
-
-    .activimage5
-    {
-        position: relative;
-        right:42px;
-    }
-
-    .activimage6
-    {
-        position: relative;
-        right:22px;
-    }
-
-    .titreactivite1
-   {
-       width:99%;
-       position: relative;
-       left:0px;
-   }
-
-   .titreactivite2, .titreactivite3
-   {
-       width:89%;
-       position:relative;
-       left:0px;
-   }
-
-   .titreactivite4
-   {
-       width:99%;
-       position: relative;
-       left:-10px;
-   }
-
-   .titreactivite5
-   {
-       width:89%;
-       position:relative;
-       left:77px;
-   }
-   .titreactivite6
-   {
-       width:89%;
-       position:relative;
-       left:55px;
-   }
-}
 
 
 /********************************************************************************Ordinateur 1024px*****************************************/
 
-@media (min-width:992px) and (max-width:1024px)
+@media (min-width:992px) and (max-width:1280px)
 {
+   
 
     body 
     {
-        width:100.5%;
+        width:100%;
     }
     .logo
     {
@@ -1733,19 +1423,32 @@ h1 + p
         bottom:100px;
     }
 
-    .titrehotel1, .titrehotel2
+    .titrehotel1
     {
-        font-size: 12.5px;
+        font-size:70%;
         position: relative;
         right:5px;
     }
-    .soustitre1, .soustitre2
+    .soustitre1
     {
-        font-size: 12.5px;
+        font-size:70%;
         position: relative;
         right:5px;
-        top:10px;
-        padding-bottom: 10px;
+        top:5px;
+    }
+
+    .titrehotel2
+    {
+        font-size:70%;
+        position: relative;
+        right:5px;
+    }
+    .soustitre2
+    {
+        font-size:70%;
+        position: relative;
+        right:5px;
+        top:5px;
     }
 
     .etoile1
@@ -1761,13 +1464,7 @@ h1 + p
         right:10px;
         top:0px;
     }
-    .titrehotel3, .soustitre3
-    {
-        font-size: 12.5px;
-        position: relative;
-        right:5px;
-        padding-bottom: 10px;
-    }
+    
     
     .image1
     {
@@ -1780,29 +1477,42 @@ h1 + p
         height:145px;
     }
 
-    .plus
-    {
-        bottom:80px;
-    }
-    
     .fond1
     {
         position: relative;
         bottom:55px;
     }
 
-    .image3
+    .plus
     {
-        width:40% ;
-        height: 160px;
+        bottom:80px;
+    }
+    
+    .titrehotel3
+    {
+        font-size:70%;
+        position: relative;
+        right:5px;
+    }
+    .x
+    {
+        width:100%;
+        position: relative;
+        right:5px;
+    }
+    .soustitre3
+    {
+        font-size:70%;
+        width:105%;
+        position: relative;
+        right:5px;
+        padding-top:10px;
     }
 
     .fond3
     {
-        width:65%;
-        height:160px;
-        position: relative;
-        bottom:136px;
+        width:70%;
+        bottom:133px;
     }
 
     .tablette2
@@ -1819,14 +1529,14 @@ h1 + p
     .etoilex
     {
         position: relative;
-        top:10px;
+        top:20px;
         right:5px;
     }
 
     .etoiley
     {
         position: relative;
-        top:10px;
+        top:20px;
         right:5px;
     }
 
@@ -1834,7 +1544,7 @@ h1 + p
 
     {
         position: relative;
-        top:10px;
+        top:20px;
         right:5px;
     }
 
@@ -1896,19 +1606,26 @@ h1 + p
    {
        width:88%;
        position:relative;
-       left:77px;
+       left:78px;
    }
    .titreactivite6
    {
        width:88%;
        position:relative;
-       left:55px;
+       left:56px;
    }
 
     .footer
     {
+        width: 100.45%;
+        height:200px;
         padding-top: 20px;
     }
+    .titrefooter, .listeA
+    {
+    font-size:80%;
+    }
+
     .noshebergements
     {
         position: relative;
@@ -1917,6 +1634,6 @@ h1 + p
     .assistance
     {
         position: relative;
-        right: -50px;
+        left:20px;
     }
 }

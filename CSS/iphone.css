@@ -6,8 +6,6 @@
 
 {
 
- 
-
 body 
 {
      width:100%;
@@ -86,11 +84,13 @@ body
 
 .tabpositionh1
 {
+    width:90%;
     font-size:110%;
 }
 .tabpositionp
 {
-    font-size:80%;
+    width:90%;
+    font-size:70%;
     padding-bottom:10px;
     padding-top:10px;
 }
@@ -195,7 +195,7 @@ body
 
 .icon3
 {
-    width:45%;
+    width:40%;
 }
 .ftext3
 {
@@ -211,7 +211,8 @@ body
 }
 
 .info
-{
+{   
+    width:90%;
     position: relative;
     bottom:50px;
     font-size:14px;
@@ -284,7 +285,7 @@ body
 }
 .fond3
 {
-    width:50%;
+    width:46%;
     height:180px;
     position: relative;
     top:-156px;

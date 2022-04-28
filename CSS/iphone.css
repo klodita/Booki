@@ -1,15 +1,12 @@
 
 
 
-@media (min-width:315px) and (max-width:767px)
+@media (max-width:767px)
 
 
 {
 
-  *
-  {
-      border:0px solid red;
-  } 
+ 
 
 body 
 {
@@ -264,10 +261,10 @@ body
 }
 
 .photo2
-{
-    width:95%;
+{   display: flex;
+    flex-direction:row;
+    width:100%;
     height:260px;
-    
 }
 .titrehotel3
 {
@@ -287,10 +284,10 @@ body
 }
 .fond3
 {
-    width:72%;
+    width:50%;
     height:180px;
     position: relative;
-    bottom:156px;
+    top:-157px;
 }
 .tablette2 
 {

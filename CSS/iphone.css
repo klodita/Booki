@@ -241,7 +241,7 @@ body
 {
     width:108%;
     height:780px;
-    align-items: center;
+   
     position:relative;
     padding-left:20px;
     padding-right: 20px;
@@ -263,12 +263,9 @@ body
 
 .photo2
 {   display: flex;
-    flex-direction:row;
-    align-items:baseline;
     width:100%;
     height:260px;
 }
-
 .titrehotel3
 {
     font-size:65%;
@@ -284,6 +281,7 @@ body
 {
     width:45%;
     height:180px;
+
 }
 .fond3
 {
@@ -304,18 +302,13 @@ body
     top:-80px;
 }
 
-.etoilex, .etoiley
+.etoilex, .etoiley, .etoilez
 {
     width:58%;
     position:relative;
     top:40px;
 }
-.etoilez
-{
-    width:58%;
-    position:relative;
-    top:60px;
-}
+
 
 
 /*Travail sur la partie Hébergement à Marseille*/

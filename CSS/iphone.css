@@ -264,9 +264,11 @@ body
 .photo2
 {   display: flex;
     flex-direction:row;
+    align-items:baseline;
     width:100%;
     height:260px;
 }
+
 .titrehotel3
 {
     font-size:65%;

@@ -705,16 +705,3 @@ body
 
 }
 
-
-@media all and (max-device-width:365px)
-{
-    body 
-    {
-        background-color: red;
-    }
-    .fond3
-    {
-        position: relative;
-        top:-140px;
-    }
-}

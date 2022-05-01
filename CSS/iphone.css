@@ -1,7 +1,7 @@
 
 
 
-@media (max-width:767px)
+@media all and (max-device-width:767px)
 
 
 {
@@ -285,15 +285,16 @@ body
 .image3
 {
     width:45%;
-    height:180px;
+    height:160px;
 
 }
 .fond3
 {
-    width:46%;
-    height:180px;
+    width:48%;
+    height:160.1px;
     position: relative;
-    top:-156px;
+    top:-136.4px;
+    
 }
 .tablette2 
 {
@@ -311,7 +312,7 @@ body
 {
     width:58%;
     position:relative;
-    top:40px;
+    top:30px;
 }
 
 

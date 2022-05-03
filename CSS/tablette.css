@@ -182,39 +182,56 @@
 {
     display: flex;
     width:92%;
-    height:770px;
+    height:900px;
 }
-
+.grostitre2
+{
+    font-size:25px;
+}
 .titrehotel3, .soustitre3
 {
-    font-size:100%;
+    width:90%;
+    font-size:22px;
     position: relative;
     left:15px;
 }
 
-.image3, .fond3
+.cadre 
 {
-    height:190px;
+    width:90%;
+    height:220px;
+    position:relative;
+    bottom:30px;
+    left:8px;
+    padding-bottom:20px;
 }
+.image3 
+{
+    width:48%;
+    height:202px;
+    position: relative;
+    right:18px;
+    top:2px;
+}
+
 .fond3
 {
-    bottom:152px;
+    width:45%;
+    bottom:170px;
 }
+
 .etoile3
 {
-    width:12%;
+    width:18%;
     font-size:18px;
     position: relative;
     left:15px;
 }
-.etoilex, .etoilez
+.etoilex, .etoiley, .etoilez
 {   position: relative;
-    top:30px;
+    top:20px;
 }
-.etoiley
-{   position: relative;
-    top:10px;
-}
+
 
 .conteneur
 {

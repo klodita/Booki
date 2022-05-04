@@ -352,7 +352,7 @@ h1 + p
     display: flex;
     font-size: 15px;
     align-items: center;
-    width:2%;
+    width:30px;
     height:30px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -1417,6 +1417,7 @@ h1 + p
     .iconeInfo
     {
        width:3%;
+      
     }
     .info
     {

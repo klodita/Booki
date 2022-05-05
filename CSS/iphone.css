@@ -1,4 +1,4 @@
-@media all and (max-device-width:767px)
+@media (max-width:767px)
 
 {
 
@@ -258,6 +258,8 @@ header
 .grostitre2
 {
     font-size:100%;
+    position: relative;
+    right:18px;
     
 }
 .iconechart

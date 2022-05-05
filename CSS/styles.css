@@ -406,11 +406,11 @@ h1 + p
 {
     font-size: 22px;
     margin-left: 55px;
-    padding-top:28px;
-    padding-bottom:42px;
+    padding-top:22px;
+    padding-bottom:32px;
     position: relative;
     right:30px;
-    bottom:23px;
+    bottom:30px;
     
 }
 
@@ -1258,6 +1258,11 @@ h1 + p
    *{
        border:0px solid red;
    }
+
+   .grostitre2
+   {
+       padding-bottom:5px;
+   }
     .cadre
     {
         width:90%;
@@ -1532,7 +1537,7 @@ h1 + p
     .grostitre2, .iconechart
     {
         font-size:16px;
-        padding-bottom:22px;
+        padding-bottom:18px;
     }
    .cadre 
    {

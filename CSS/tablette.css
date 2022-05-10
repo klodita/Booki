@@ -1,8 +1,6 @@
 @media (min-width:768px) and (max-width:991px)
 {
 
-  
-
 /*Travail sur la Navigation et logo*/
 
 .logo 
@@ -299,7 +297,7 @@
 }
 
 .footer
-{   width:100.6%; 
+{   width:100%; 
     height:190px;
     position:relative;
     top:520px;

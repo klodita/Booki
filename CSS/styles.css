@@ -1257,10 +1257,7 @@ h1 + p
 @media all and (min-width:1281px) and (max-width:1440px)
 
 {
-   *{
-       border:0px solid red;
-   }
-
+   
    .grostitre2
    {
        padding-bottom:5px;
@@ -1302,7 +1299,7 @@ h1 + p
     }
     .footer
     {
-        width:100.35%;
+        width:100%;
     }
    
    
@@ -1678,22 +1675,30 @@ h1 + p
 
     .footer
     {
-        width: 100.45%;
+        width: 100%;
         height:200px;
-        padding-top: 20px;
+        position: relative;
+        top:50px;
+      
     }
     .titrefooter, .listeA
     {
     font-size:80%;
+    position: relative;
     }
-
+    .apropos
+    {
+        height: 150px;
+    }
     .noshebergements
     {
+        height: 150px;
         position: relative;
         right:-50px;
     }
     .assistance
     {
+        height: 150px;
         position: relative;
         left:20px;
     }

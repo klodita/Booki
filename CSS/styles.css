@@ -1161,6 +1161,8 @@ h1 + p
     align-items:center;
     justify-content:center;
     justify-content: space-around;
+    position:relative;
+    left:5px;
 }
 
 
